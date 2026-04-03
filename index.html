@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cognitive Load Theory — Teaching Reference</title>
+<title>Reducing Cognitive Load: Five Multimedia Design Principles</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=DM+Serif+Display&display=swap');
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
@@ -63,7 +63,7 @@
 </div>
 <header>
   <div class="eyebrow">Mayer &amp; Moreno (2003) &middot; Educational Psychologist 38(1):43&ndash;52</div>
-  <h1>Nine Ways to Reduce Cognitive Load</h1>
+  <h1>Reducing Cognitive Load: Five Multimedia Design Principles</h1>
   <p class="subtitle">A multimedia design teaching reference &nbsp;&middot;&nbsp; Huth &amp; Wolbrink &nbsp;&middot;&nbsp; Harvard Medical School</p>
 </header>
 <nav id="nav"></nav>
@@ -105,31 +105,31 @@ var data=[
    problem:"When on-screen text and animation both demand the eyes at the same time, learners must scan between them -- neither is processed fully. The visual channel becomes the bottleneck.",
    solution:"Replace on-screen text with spoken narration. Words travel through the auditory channel, animation through the visual -- both channels used simultaneously without competition.",
    effect:"Modality effect d = 1.17 (6 studies)",
-   bad:{head:"Bad: text + animation competing",svg:t1bad,cite:"Chandler & Sweller (1991) Cogn Instr 8:293; Mayer & Moreno (1998) J Educ Psychol 90:312",cap:"Learners must scan between text and animation -- both compete for the visual channel. The scanning itself consumes working memory needed for understanding."},
+   bad:{head:"Poor: text + animation competing",svg:t1bad,cite:"Chandler & Sweller (1991) Cogn Instr 8:293; Mayer & Moreno (1998) J Educ Psychol 90:312",cap:"Learners must scan between text and animation -- both compete for the visual channel. The scanning itself consumes working memory needed for understanding."},
    good:{head:"Good: narrated animation only",svg:t1good,cite:"Modality principle: Mayer & Moreno (2003) Educ Psychol 38:43; Mousavi, Low & Sweller (1995) J Educ Psychol 87:319",cap:"Animation + spoken narration uses both channels together. Students scored ~1 SD higher on transfer tests compared to text + animation (Mayer & Moreno, 1998)."}},
   {nav:"Type 2 -- Segmenting",badge:"Type 2 -- Both channels overloaded",title:"Complex content, no chunking or scaffolding",desc:"Dense material delivered without segmenting or pretraining",
    problem:"With conceptually dense material delivered at pace, learners cannot finish selecting, organizing, and integrating one segment before the next arrives. Both channels overflow before deeper processing can occur.",
    solution:"Segment into learner-controlled chunks. Pretrain component names and behaviors before introducing the full causal system. Let learners advance when ready.",
    effect:"Segmenting d = 1.36  Pretraining d = 1.00",
-   bad:{head:"Bad: full complexity all at once",svg:t2bad,cite:"Intrinsic load: Sweller (1999); Mayer & Moreno (2003) Educ Psychol 38:43",cap:"Showing the full Wiggers diagram without pretraining forces learners to build component models AND a causal model simultaneously -- classic Type 2 overload."},
+   bad:{head:"Poor: full complexity all at once",svg:t2bad,cite:"Intrinsic load: Sweller (1999); Mayer & Moreno (2003) Educ Psychol 38:43",cap:"Showing the full Wiggers diagram without pretraining forces learners to build component models AND a causal model simultaneously -- classic Type 2 overload."},
    good:{head:"Good: segmented + pretraining",svg:t2good,cite:"Segmenting: Mayer & Chandler (2001) J Educ Psychol 93:390. Pretraining: Mayer, Mathias & Wetzell (2002) J Exp Psychol Appl 8:147",cap:"Teaching each component first, then building the full picture, allows working memory to process one chunk at a time. The learner controls the pace."}},
-  {nav:"Type 3 -- Weeding",badge:"Type 3 -- Extraneous material",title:"Seductive details drain working memory",desc:"Interesting but irrelevant content competes with essential processing",
+  {nav:"Type 3 -- Weeding",badge:"Type 3 -- Extraneous material",title:"Irrelevant material drains working memory",desc:"Interesting but irrelevant content competes with essential processing",
    problem:"Background music, decorative animations, dramatic stock clips, and tangential facts all consume working memory capacity reserved for essential processing. Learners remember the details, not the content.",
    solution:"Weed: eliminate all embellishments. Signal: when removal is not possible, use arrows, color highlights, and headings to redirect attention to what matters.",
    effect:"Coherence effect d = 0.90  Signaling d = 0.74",
-   bad:{head:"Bad: seductive details everywhere",svg:t3bad,cite:"Mayer, Heiser & Lonn (2001) J Educ Psychol 93:187; Moreno & Mayer (2000) J Educ Psychol 92:117",cap:"Music, fun facts, and irrelevant clips are 'seductive details' -- interesting enough to attract attention but irrelevant to the objective, crowding out essential processing."},
+   bad:{head:"Poor: irrelevant material everywhere",svg:t3bad,cite:"Mayer, Heiser & Lonn (2001) J Educ Psychol 93:187; Moreno & Mayer (2000) J Educ Psychol 92:117",cap:"Music, fun facts, and extraneous clips are 'irrelevant material' -- interesting enough to attract attention but irrelevant to the objective, crowding out essential processing."},
    good:{head:"Good: clean with deliberate signaling",svg:t3good,cite:"Weeding + signaling: Mautone & Mayer (2001) J Educ Psychol 93:377; Mayer & Moreno (2003) Educ Psychol 38:43",cap:"No extraneous material. Numbered steps, highlighted key equation, and a signaling arrow direct all cognitive resources toward the learning objective."}},
   {nav:"Type 4 -- Alignment",badge:"Type 4 -- Confusing presentation",title:"Spatial misalignment or redundant narration + text",desc:"Poor layout or duplicated content forces unnecessary cognitive work",
    problem:"Labels in a separate legend force visual scanning to match text to diagram. Presenting identical on-screen text AND narration forces reconciliation of two redundant streams -- both waste working memory.",
    solution:"Place labels directly adjacent to their graphic referents. Remove on-screen text that duplicates narration when animation is present.",
    effect:"Spatial contiguity d = 0.48  Redundancy d = 0.69",
-   bad:{head:"Bad: labels separated in legend",svg:t4bad,cite:"Spatial contiguity: Chandler & Sweller (1992) Br J Educ Psychol 62:233; Moreno & Mayer (1999) J Educ Psychol 91:358",cap:"When labels appear in a separate legend block, learners must search the diagram for matching elements -- scanning consumes exactly the working memory needed for understanding."},
+   bad:{head:"Poor: labels separated in legend",svg:t4bad,cite:"Spatial contiguity: Chandler & Sweller (1992) Br J Educ Psychol 62:233; Moreno & Mayer (1999) J Educ Psychol 91:358",cap:"When labels appear in a separate legend block, learners must search the diagram for matching elements -- scanning consumes exactly the working memory needed for understanding."},
    good:{head:"Good: labels integrated on diagram",svg:t4good,cite:"Spatial contiguity principle: Moreno & Mayer (1999) J Educ Psychol 91:358; Mayer & Moreno (2003) Educ Psychol 38:43",cap:"Labels placed directly on the waveform eliminate visual scanning entirely. Working memory is fully available for understanding the content."}},
   {nav:"Type 5 -- Synchrony",badge:"Type 5 -- Working memory holding",title:"Narration and animation presented sequentially",desc:"Temporal mismatch forces costly representational holding",
    problem:"When a presenter explains a process verbally and then shows the diagram -- or vice versa -- learners must hold the verbal representation in working memory until the visual arrives. This holding consumes capacity needed for integration.",
    solution:"Synchronize: present corresponding narration and animation at exactly the same time. The representational holding burden disappears entirely.",
    effect:"Temporal contiguity d = 1.30 (8 studies)",
-   bad:{head:"Bad: narration THEN animation",svg:t5bad,cite:"Mayer & Anderson (1991) J Educ Psychol 83:484; Mayer & Anderson (1992) J Educ Psychol 84:444",cap:"Successive presentation forces learners to hold one representation in working memory while waiting for the other. Transfer performance drops substantially vs. simultaneous."},
+   bad:{head:"Poor: narration THEN animation",svg:t5bad,cite:"Mayer & Anderson (1991) J Educ Psychol 83:484; Mayer & Anderson (1992) J Educ Psychol 84:444",cap:"Successive presentation forces learners to hold one representation in working memory while waiting for the other. Transfer performance drops substantially vs. simultaneous."},
    good:{head:"Good: narration + animation in sync",svg:t5good,cite:"Temporal contiguity: Mayer & Sims (1994) J Educ Psychol 84:389; Mayer, Moreno, Boire & Vagge (1999) J Educ Psychol 91:638",cap:"When spoken words and animation are synchronized, no representational holding is needed. Full working memory capacity is available for integration and learning."}}
 ];
 
